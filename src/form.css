@@ -1,0 +1,15 @@
+
+.form{
+    width: 600px;
+  }
+
+
+.br--right {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.br--left {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+  

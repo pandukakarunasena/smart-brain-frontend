@@ -3,10 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import ReactNotification from 'react-notifications-component'
+import 'react-notifications-component/dist/theme.css'
+import 'animate.css/animate.compat.css'
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <div className="app-container">
+          <ReactNotification />
+          <App />
+    </div>  
   </React.StrictMode>,
   document.getElementById('root')
 );
